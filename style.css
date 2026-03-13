@@ -1,210 +1,338 @@
-body {
-    background-color :pink ;
-    text-align : center;
-    font-size: 0.9em;
+ ```css
+/* ---------- GLOBAL ---------- */
 
+body{
+    background-color:pink;
+    text-align:center;
+    font-size:0.9em;
+    margin:0;
+    font-family:Georgia,'Times New Roman',Times,serif;
 }
+
+/* images never overflow screen */
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+
+/* ---------- HEADER ---------- */
+
 #h1box{
-    background-color :black;
-    color :blue;
-    padding: px;
-    font-size :3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 10px;
-    border-top: solid;
-    border-color:#AB1C05;
-    border-width: 10px;
-    border-right: solid;
-    border-right-color: #AB1C05;
-    border-right-width: 10px;
+    background-color:black;
+    color:blue;
 
+    font-size:3em;
+
+    border-radius:10px;
+
+    border-top:10px solid #AB1C05;
+    border-right:10px solid #AB1C05;
+
+    padding:20px;
 }
+
+
+/* ---------- MAIN INFO BOX ---------- */
+
 #p1box{
-    background-color: #FF310D;
-    font-size: 2em;
+    background-color:#FF310D;
+
+    font-size:2em;
+
     border:solid;
     border-top-color:#D3B0FF;
-    border-radius: 10px;
-    text-align: left;
-    padding-bottom: 280px;
-    box-shadow: 10px 10px0#450000;
-    font-family: 'Chewy', cursive;
-    margin-bottom: 150px;
 
+    border-radius:10px;
+
+    text-align:left;
+
+    padding:40px;
+
+    box-shadow:10px 10px 0 #450000;
+
+    font-family:'Chewy',cursive;
+
+    margin:40px auto;
+
+    max-width:1000px;
 }
+
+
+/* ---------- PRODUCT LIST ---------- */
+
 #listbox{
     background-color:#FA563C;
-    text-align: left;
-    pading-right: 75%;
-    border: solid;
-    border-top-color:#D3B0FF;
-    margin-right: 75%;
-    font-family: 'Nosifer', cursive;
-    text-emphasis-color: purple;
-    color:darkred;
-    margin-top: -450px ;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    box-shadow:10px 12px  #450000;
-}
-#column{
-    background-color: #FF7A7A;
-    font-size: 3em;
-    font-size: 5px;
-    text-align: left;
-    padding-bottom: 20px;
-}
-#caketoppers {
-    color: purple;
-    font-weight: 900;
-    font-family: 'Nosifer', cursive;
-    background-color: #F20000;
-    padding-block-start: 20px;
-    letter-spacing:10px;
-    font-size: 90px;
-    transform: rotate(0deg);
-    border-radius: 100px;
-    text-align: center;
-     
 
+    text-align:left;
+
+    border:solid;
+
+    border-top-color:#D3B0FF;
+
+    font-family:'Nosifer',cursive;
+
+    color:darkred;
+
+    padding:30px;
+
+    margin-top:40px;
+
+    border-radius:10px;
+
+    box-shadow:10px 12px 0 #450000;
 }
+
+
+/* ---------- COLUMN SECTION ---------- */
+
+#column{
+    background-color:#FF7A7A;
+
+    padding:30px;
+
+    text-align:center;
+}
+
+
+/* ---------- CAKE TOPPER TITLE ---------- */
+
+#caketoppers{
+
+    color:purple;
+
+    font-weight:900;
+
+    font-family:'Nosifer',cursive;
+
+    background-color:#F20000;
+
+    padding:20px;
+
+    letter-spacing:6px;
+
+    font-size:4rem;
+
+    border-radius:100px;
+
+    text-align:center;
+}
+
+
+/* ---------- NOW AVAILABLE SECTION ---------- */
+
 #nowavailable{
 
-font-family: 'Rubik Glitch', cursive;
-font-size:70px;
-letter-spacing:8px;
-transform:rotate(-3deg);
-text-shadow:5px 15px 0 red;
+    font-family:'Rubik Glitch',cursive;
 
-}
-#odervia{
-    letter-spacing: 5px;
-    background-color: brown;
-    padding: 5px 10px 5px 10px;
-}
-#caketxt{
-    transform: rotate(0deg);
-}
-#socials {
-    border-radius: 50px;
-     color :#D3B0FF;
-     background-color: #F59582;
-     margin-left: 35% ;
-     margin-right: 35%;
-     font-size: 1.5;
-     padding-bottom: 0px;
-     margin-top: -400px;
-     text-align: left;
-     border: solid;
-     border-width: 5px;
-     border-color: #AB1C05;
-     box-shadow: 22px 20px 0 black;
+    font-size:3rem;
 
-       
+    letter-spacing:6px;
+
+    text-shadow:5px 5px 0 red;
+
+    margin-top:30px;
 }
+
+
+/* ---------- SOCIAL MEDIA BOX ---------- */
+
+#socials{
+
+    border-radius:50px;
+
+    color:#D3B0FF;
+
+    background-color:#F59582;
+
+    font-size:1.3em;
+
+    padding:30px;
+
+    margin:40px auto;
+
+    max-width:500px;
+
+    text-align:left;
+
+    border:5px solid #AB1C05;
+
+    box-shadow:22px 20px 0 black;
+}
+
 #handles{
-    color: #450000;
-    color: darkmagenta;
-     text-shadow:2px 3px 0 black;
-     font-family: 'Chewy', cursive;
-}
-#tryus{
-     color: rgb(169, 79, 10);
-     text-shadow:3px 3px 0 black;
-     font-family: 'Chewy', cursive;
-}
-#whatsappbtnfield{
-    color:whitesmoke;
-    background-color: whitesmoke;
-    text-align:top;
-    margin-left: 75%;
-    margin-right: 5%;
-    padding-bottom: 200px;
-    font-size: 1.5;
-    padding-top: 400;
-    border-radius: 20px;
-    border: solid;
-    border-color:  #AB1C05;
-    border-width: 10px;
-    box-shadow: 25px 26px 0 black;
-    border-right: solid black;
-    border-bottom: solid black;
 
+    color:darkmagenta;
+
+    text-shadow:2px 3px 0 black;
+
+    font-family:'Chewy',cursive;
 }
+
+#tryus{
+
+    color:rgb(169,79,10);
+
+    text-shadow:3px 3px 0 black;
+
+    font-family:'Chewy',cursive;
+}
+
+
+/* ---------- WHATSAPP BUTTON AREA ---------- */
+
+#whatsappbtnfield{
+
+    background-color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    border:10px solid #AB1C05;
+
+    box-shadow:25px 26px 0 black;
+
+    margin:40px auto;
+
+    max-width:300px;
+}
+
 #whatsappbtn{
-    background-color:#29B500 ;
-    margin-left: 40px;
-    margin-top: 100px;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 10px 10px 0 black; 
+
+    background-color:#29B500;
+
+    font-size:1.5em;
+
+    padding:10px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    box-shadow:10px 10px 0 black;
+
+    border:none;
 }
+
 #whatsappbtn:hover{
-    color: white;
-    background-color: lime;
-    box-shadow: 10px 10px 0  pink;
+
+    color:white;
+
+    background-color:lime;
+
+    box-shadow:10px 10px 0 pink;
 }
+
+
+/* ---------- IMAGE ---------- */
+
 #image1{
-    margin-left: 50%;
-    height: 1000px;
-    width: 700px;
-    padding-right: 10px;
-    margin-top: -300px;
-     transform: rotate(3deg);
-     box-shadow: 10px 10px  #F59582;
-     border: solid pink;
-     border-radius: 40px;
+
+    margin-top:20px;
+
+    border:solid pink;
+
+    border-radius:40px;
+
+    box-shadow:10px 10px #F59582;
 }
+
+
+/* ---------- FOOTER ---------- */
 
 .site-footer{
-    background-color: black;
-    color: white;
-    padding: 30px;
+
+    background-color:black;
+
+    color:white;
+
+    padding:30px;
 }
 
 .footer-table{
-    width: 100%;
-    border-collapse: collapse;
+
+    width:100%;
+
+    border-collapse:collapse;
 }
 
 .footer-table th{
-    text-align: left;
-    padding-bottom: 10px;
+
+    text-align:left;
+
+    padding-bottom:10px;
 }
 
 .footer-table td{
-    vertical-align: top;
+
+    vertical-align:top;
 }
 
 .footer-table ul{
-    margin: 0;
-    padding-left: 20px;
+
+    margin:0;
+
+    padding-left:20px;
 }
 
 .creator{
-    margin-top: 20px;
-}
 
-.whatsapp-button{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-
-    background-color: #25D366;
-    color: white;
-
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 20px;
-
-    font-size: 14px;
-    font-weight: bold;
+    margin-top:20px;
 }
 
 #fbox{
-    font-size: 3em;
-    padding-top: 50px;
-    margin-bottom: -30px;
+
+    font-size:1.5em;
+
+    padding-top:50px;
 }
+
+
+/* ---------- FLOATING WHATSAPP BUTTON ---------- */
+
+.whatsapp-button{
+
+    position:fixed;
+
+    bottom:20px;
+
+    right:20px;
+
+    background-color:#25D366;
+
+    color:white;
+
+    padding:12px 18px;
+
+    text-decoration:none;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:bold;
+}
+
+
+/* ---------- MOBILE RESPONSIVE ---------- */
+
+@media (max-width:768px){
+
+    #caketoppers{
+        font-size:2.5rem;
+    }
+
+    #nowavailable{
+        font-size:2rem;
+    }
+
+    #p1box{
+        font-size:1.3em;
+    }
+
+}
+```
