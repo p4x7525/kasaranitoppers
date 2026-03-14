@@ -1,9 +1,9 @@
- ```css
-/* ---------- GLOBAL ---------- */
+/*contains the whole website*/
+
 .container{
-    max-width:1200px;
-    margin:auto;
-    padding:20px;
+    /*max-width:;*/
+    margin:0px;
+    padding:20px; 
 }
 
 body{
@@ -21,14 +21,13 @@ img{
     height:auto;
 }
 
-
-/* ---------- HEADER ---------- */
+ 
 
 #h1box{
     background-color:black;
     color:blue;
 
-    font-size:3em;
+    width: 100%;
 
     border-radius:10px;
 
@@ -36,6 +35,12 @@ img{
     border-right:10px solid #AB1C05;
 
     padding:20px;
+}   
+/* ---------- prevents overflow ya header----*/
+#h1box h1{
+    font-size: 5vw;
+    margin: 0;
+    word-wrap: break-word;
 }
 
 
@@ -87,6 +92,7 @@ img{
     border-radius:10px;
 
     box-shadow:10px 12px 0 #450000;
+    font-size: 1.5vw;
 }
 
 
@@ -98,6 +104,7 @@ img{
     padding:30px;
 
     text-align:center;
+    width: 100%;
 }
 
 
@@ -117,11 +124,12 @@ img{
 
     letter-spacing:6px;
 
-    font-size:4rem;
+    font-size:2vw;
 
     border-radius:100px;
 
     text-align:center;
+    width: 100%;
 }
 
 
@@ -255,7 +263,9 @@ img{
 
     color:white;
 
-    padding:30px;
+    padding-top:1%;
+    width: 100%;
+    margin-top: 0px;
 }
 
 .footer-table{
@@ -288,13 +298,15 @@ img{
 
     margin-top:20px;
 }
-
+/*
 #fbox{
 
-    font-size:1.5em;
+    font-size:.1.2vw;
 
-    padding-top:50px;
-}
+    padding:0px;
+    width: 100%;
+     
+}*/
 
 
 /* ---------- FLOATING WHATSAPP BUTTON ---------- */
@@ -340,4 +352,3 @@ img{
     }
 
 }
-```
